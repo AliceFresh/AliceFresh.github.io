@@ -1,0 +1,31 @@
+div
+	{
+		padding: 10px 100px;
+		padding-top: 100px;
+		margin: 100px;
+		background-color: lightgreen;
+		width: 40%;
+		font-size: 50px;
+		font-family: 'Viaoda Libre', cursive;
+		color: black;	
+		display: inline-block;
+		box-shadow: 10px 10px 
+		200px 10px rgba(0,237,67,1);
+}
+
+a 
+{
+	border-bottom: 1px solid transparent;
+	transition: font-size 1s linear,
+	border-bottom-color 2s ease-in;
+}
+a:hover
+{
+	border-bottom-color: red;
+	font-size: 100px;
+
+	}
+img
+	{
+		width: 90%;
+	}
